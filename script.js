@@ -31,6 +31,16 @@ function isrestbtnvalid() {
 		{
 			if(images[i].classList.contains("selected"))
 			{
+			     return true;
+			}
+		}
+    return false;
+}
+function isverifybtnvalid() {
+	for(let i=0;i<images.length;i++)
+		{
+			if(images[i].classList.contains("selected"))
+			{
 				count++;
 			}
 		}
